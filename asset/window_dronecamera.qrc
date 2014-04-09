@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="Window_droneCamera">
+    <file>alerte_60.png</file>
+  </qresource>
+</RCC>

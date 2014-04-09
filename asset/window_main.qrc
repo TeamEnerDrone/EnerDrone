@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="Window_Main">
+    <file>alerte_50.png</file>
+  </qresource>
+</RCC>
