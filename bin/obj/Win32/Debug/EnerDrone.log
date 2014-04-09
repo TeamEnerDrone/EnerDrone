@@ -1,0 +1,44 @@
+﻿La génération a démarré 06/04/2014 21:09:40.
+     1>Projet "C:\Users\Romain\Desktop\EnerDrone-dist\build\EnerDrone\EnerDrone.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>CustomBuild:
+         Moc'ing controller.h...
+         Moc'ing window_main.h...
+         Moc'ing window_dronecamera.h...
+         Rcc'ing ..\..\asset\window_dronecamera.qrc...
+         Uic'ing ..\..\asset\window_dronecamera.ui...
+         Rcc'ing ..\..\asset\window_main.qrc...
+         Uic'ing ..\..\asset\window_main.ui...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtCore /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtGui /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtMultimediaWidgets /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtNetwork /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_MULTIMEDIAWIDGETS_LIB /D QT_NETWORK_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"..\..\bin\obj\Win32\Debug\\" /Fd"..\..\bin\obj\Win32\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\ardrone\ardrone.cpp ..\..\src\ardrone\command.cpp ..\..\src\ardrone\config.cpp ..\..\src\ardrone\navdata.cpp ..\..\src\ardrone\tcp.cpp ..\..\src\ardrone\udp.cpp ..\..\src\ardrone\version.cpp ..\..\src\ardrone\video.cpp ..\..\src\controller.cpp ..\..\src\main.cpp ..\..\src\window_dronecamera.cpp ..\..\src\window_main.cpp GeneratedFiles\Debug\moc_controller.cpp GeneratedFiles\Debug\moc_window_dronecamera.cpp GeneratedFiles\Debug\moc_window_main.cpp
+         ardrone.cpp
+     1>c:\users\romain\desktop\enerdrone-dist\src\ardrone\ardrone.h(45): fatal error C1083: Impossible d'ouvrir le fichier include : 'opencv2/opencv.hpp' : No such file or directory
+         command.cpp
+     1>c:\users\romain\desktop\enerdrone-dist\src\ardrone\ardrone.h(45): fatal error C1083: Impossible d'ouvrir le fichier include : 'opencv2/opencv.hpp' : No such file or directory
+         config.cpp
+     1>c:\users\romain\desktop\enerdrone-dist\src\ardrone\ardrone.h(45): fatal error C1083: Impossible d'ouvrir le fichier include : 'opencv2/opencv.hpp' : No such file or directory
+         navdata.cpp
+     1>c:\users\romain\desktop\enerdrone-dist\src\ardrone\ardrone.h(45): fatal error C1083: Impossible d'ouvrir le fichier include : 'opencv2/opencv.hpp' : No such file or directory
+         tcp.cpp
+     1>c:\users\romain\desktop\enerdrone-dist\src\ardrone\ardrone.h(45): fatal error C1083: Impossible d'ouvrir le fichier include : 'opencv2/opencv.hpp' : No such file or directory
+         udp.cpp
+     1>c:\users\romain\desktop\enerdrone-dist\src\ardrone\ardrone.h(45): fatal error C1083: Impossible d'ouvrir le fichier include : 'opencv2/opencv.hpp' : No such file or directory
+         version.cpp
+     1>c:\users\romain\desktop\enerdrone-dist\src\ardrone\ardrone.h(45): fatal error C1083: Impossible d'ouvrir le fichier include : 'opencv2/opencv.hpp' : No such file or directory
+         video.cpp
+     1>c:\users\romain\desktop\enerdrone-dist\src\ardrone\ardrone.h(45): fatal error C1083: Impossible d'ouvrir le fichier include : 'opencv2/opencv.hpp' : No such file or directory
+         controller.cpp
+     1>c:\users\romain\desktop\enerdrone-dist\src\ardrone\ardrone.h(45): fatal error C1083: Impossible d'ouvrir le fichier include : 'opencv2/opencv.hpp' : No such file or directory
+         main.cpp
+     1>c:\users\romain\desktop\enerdrone-dist\src\ardrone\ardrone.h(45): fatal error C1083: Impossible d'ouvrir le fichier include : 'opencv2/opencv.hpp' : No such file or directory
+         window_dronecamera.cpp
+         window_main.cpp
+         moc_controller.cpp
+     1>c:\users\romain\desktop\enerdrone-dist\src\ardrone\ardrone.h(45): fatal error C1083: Impossible d'ouvrir le fichier include : 'opencv2/opencv.hpp' : No such file or directory
+         moc_window_dronecamera.cpp
+         moc_window_main.cpp
+         Génération de code en cours...
+     1>Génération du projet "C:\Users\Romain\Desktop\EnerDrone-dist\build\EnerDrone\EnerDrone.vcxproj" terminée (Build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:20.14

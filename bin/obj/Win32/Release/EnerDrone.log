@@ -1,0 +1,31 @@
+﻿La génération a démarré 09/04/2014 08:18:02.
+     1>Projet "C:\Users\Romain\Desktop\EnerDrone-dist\build\EnerDrone\EnerDrone.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include /I.\GeneratedFiles\Release /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtCore /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtGui /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtNetwork /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtWidgets /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtMultimedia /nologo /W1 /WX- /O2 /Oy- /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_WIDGETS_LIB /D __STDC_CONSTANT_MACROS /D QT_MULTIMEDIA_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"..\..\bin\obj\Win32\Release\\" /Fd"..\..\bin\obj\Win32\Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\ardrone\command.cpp ..\..\src\controller.cpp
+         command.cpp
+         controller.cpp
+         Génération de code en cours...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\Win32\Release\\EnerDrone.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Network.lib Qt5Widgets.lib Qt5Multimedia.lib opencv_calib3d246.lib opencv_contrib246.lib opencv_core246.lib opencv_features2d246.lib opencv_flann246.lib opencv_highgui246.lib opencv_imgproc246.lib opencv_legacy246.lib opencv_ml246.lib opencv_objdetect246.lib opencv_photo246.lib opencv_stitching246.lib opencv_superres246.lib opencv_video246.lib opencv_videostab246.lib avcodec.lib avdevice.lib avfilter.lib avformat.lib avutil.lib swresample.lib swscale.lib pthreadVC2.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"..\..\bin\Win32\Release\EnerDrone.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\bin\Win32\Release\EnerDrone.lib" /MACHINE:X86 /SAFESEH ..\..\bin\obj\Win32\Release\ardrone.obj
+         ..\..\bin\obj\Win32\Release\command.obj
+         ..\..\bin\obj\Win32\Release\config.obj
+         ..\..\bin\obj\Win32\Release\navdata.obj
+         ..\..\bin\obj\Win32\Release\tcp.obj
+         ..\..\bin\obj\Win32\Release\udp.obj
+         ..\..\bin\obj\Win32\Release\version.obj
+         ..\..\bin\obj\Win32\Release\video.obj
+         ..\..\bin\obj\Win32\Release\controller.obj
+         ..\..\bin\obj\Win32\Release\main.obj
+         ..\..\bin\obj\Win32\Release\window_dronecamera.obj
+         ..\..\bin\obj\Win32\Release\window_main.obj
+         ..\..\bin\obj\Win32\Release\qrc_window_dronecamera.obj
+         ..\..\bin\obj\Win32\Release\qrc_window_main.obj
+         ..\..\bin\obj\Win32\Release\moc_controller.obj
+         ..\..\bin\obj\Win32\Release\moc_window_dronecamera.obj
+         ..\..\bin\obj\Win32\Release\moc_window_main.obj
+         EnerDrone.vcxproj -> C:\Users\Romain\Desktop\EnerDrone-dist\build\EnerDrone\..\..\bin\Win32\Release\EnerDrone.exe
+     1>Génération du projet "C:\Users\Romain\Desktop\EnerDrone-dist\build\EnerDrone\EnerDrone.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:10.70
